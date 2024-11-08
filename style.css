@@ -1,0 +1,90 @@
+@import url(https://fonts.google.com/specimen/Inter);
+html{
+    box-sizing: border-box;
+}
+/* body */
+body{
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter, sans-serif;
+}
+
+/* container */
+.container{
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+/* image-profile photo */
+img{
+    border: none;
+    border-radius: 100%;
+    width: 30%;
+}
+/* Name */
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: medium;
+}
+/* address */
+.address{
+
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: small;
+}
+
+/* profile */
+.profile{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 12px;
+}
+/* button */
+button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* psuedo classes */
+button:hover{
+    cursor: pointer;
+    color:hsl(210, 45%, 44%);
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:active{
+    color: hsl(210, 45%, 44%);
+    transform: scale(0.98);
+}
+
+/* Media queries */
+@media screen and(max-width:400px) {
+    body{
+        font-size: 1rem;
+    }
+    
+}
+.attribution { font-size: 11px; text-align: center; margin-top: 20px;}
+.attribution a { color: hsl(228, 45%, 44%); }
