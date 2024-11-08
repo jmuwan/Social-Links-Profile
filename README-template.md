@@ -27,8 +27,8 @@ In this small project, i had to build out a social link-sharing profile.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/jmuwan/Social-Links-Profile)
+- Live Site URL: (https://jmuwan.github.io/Social-Links-Profile/)
 
 ## My process
 -Download the starter code and go through the README.md file.
